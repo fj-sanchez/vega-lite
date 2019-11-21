@@ -16,7 +16,6 @@
           "field": "date",
           "type": "timeunit",
           "units": ["year", "month"],
-          "step": 2,
           "as": ["yearmonth_date", "yearmonth_date_end"]
         },
         {

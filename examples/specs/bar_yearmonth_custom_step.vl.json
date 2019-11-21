@@ -5,11 +5,8 @@
   "mark": "bar",
   "encoding": {
     "x": {
-      "timeUnit": {"unit": "yearmonth", "step": 2},
-      "field": "date",
-      "type": "temporal"
+      "timeUnit": "yearmonth", "field": "date", "type": "temporal"
     },
     "y": {"aggregate": "mean", "field": "temp", "type": "quantitative"}
-  },
-  "autosize": {"type": "pad"}
+  }
 }

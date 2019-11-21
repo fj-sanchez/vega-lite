@@ -1,3 +1,8 @@
+[ { field: 'date',
+    type: 'timeunit',
+    units: [ 'year', 'month' ],
+    step: undefined,
+    as: [ 'yearmonth_date', 'yearmonth_date_end' ] } ]
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Temperature in Seattle as a bar chart with yearmonth time unit.",
@@ -16,7 +21,6 @@
           "field": "date",
           "type": "timeunit",
           "units": ["year", "month"],
-          "step": 2,
           "as": ["yearmonth_date", "yearmonth_date_end"]
         },
         {
@@ -134,3 +138,4 @@
     }
   ]
 }
+
